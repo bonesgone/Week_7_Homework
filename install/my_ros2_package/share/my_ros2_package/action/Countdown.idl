@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_ros2_package/action/Countdown.action
+// generated code does not contain a copyright notice
+
+
+module my_ros2_package {
+  module action {
+    @verbatim (language="comment", text=
+      " Request")
+    struct Countdown_Goal {
+      int32 starting_num;
+    };
+    struct Countdown_Result {
+      @verbatim (language="comment", text=
+        " Result")
+      boolean is_finished;
+    };
+    struct Countdown_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
+      int32 current_num;
+    };
+  };
+};
