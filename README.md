@@ -1,4 +1,4 @@
-# Creating ROS 2 Action
+# Creating ROS 2 Action: Countdown alert for a warehouse robot (General Idea)
 
 Three-part architecture – goal, feedback, and result – makes ROS actions especially well-suited for long-running tasks. It’s no surprise, then, that actions are most often used by robots for navigation tasks.
 
@@ -8,3 +8,8 @@ If requirements change, and the operator decides to send the AMR to a different 
 
 My action file is about creating an action that alerts a warehouse robot when it's time for it to start its shift. The action should start counting down from a given number, broadcast updates as it progresses, then finally announce when it’s reached zero.
 
+### Sending a goal to the action-server
+![image](https://github.com/bonesgone/Week_7_Homework/assets/64888324/85d28b57-42ce-4f5c-9d8d-583a374869b6)
+
+### Results and feedback from the action-server
+![image](https://github.com/bonesgone/Week_7_Homework/assets/64888324/61568cb1-55a0-4c3e-bfc6-0ee19c333290)
